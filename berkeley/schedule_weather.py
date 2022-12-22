@@ -1,5 +1,5 @@
 import schedule
-from utils import get_weather
+import berkeley.get_weather as get_weather
 import os
 import time
 from apscheduler.schedulers.background import BackgroundScheduler
